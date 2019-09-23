@@ -68,8 +68,8 @@ public class AgentSecondHand_Add {
 		driver.findElement(By.id("sourceDesc")).sendKeys(map.get("sourceDesc"));
 		//页面拖动到某一元素的位置
 		BaseElement.scrollToElement(driver, "file");
-		driver.findElement(By.name("file")).sendKeys("C:\\Users\\wuxh5\\Desktop\\showPicture.jpg");
-		driver.findElement(By.xpath("//*[@id='huxingform']/li/input")).sendKeys("C:\\Users\\wuxh5\\Desktop\\showPicture.jpg");
+		driver.findElement(By.name("file")).sendKeys("C:\\picture\\showPicture.jpg");
+		driver.findElement(By.xpath("//*[@id='huxingform']/li/input")).sendKeys("C:\\picture\\showPicture.jpg");
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
