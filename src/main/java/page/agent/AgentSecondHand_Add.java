@@ -76,7 +76,7 @@ public class AgentSecondHand_Add {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		driver.findElement(By.xpath("//*[@id='houseForm']/ul/li[30]/div[2]/div")).click();
+		driver.findElement(By.xpath("//*[@id='houseForm']/ul/li[32]/div[2]/div")).click();
 		String re = driver.findElement(By.xpath("/html/body/div[6]/div/div")).getText();
 		return re;
 	}

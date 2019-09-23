@@ -61,7 +61,7 @@ public class AgentRent_Add {
 		driver.findElement(By.name("file")).sendKeys(map.get("file"));
 		driver.findElement(By.xpath("//*[@id='houseForm']/ul/li[21]/div[2]/ul/form/li/input")).sendKeys(map.get("file"));
 		BaseOperation.sleep(2000);//等待2秒，图片上传需要时间
-		driver.findElement(By.xpath("//*[@id='houseForm']/ul/li[23]/div[2]/div")).click();
+		driver.findElement(By.xpath("//*[@id='houseForm']/ul/li[24]/div[2]/div")).click();
 		String re = driver.findElement(By.xpath("/html/body/div[6]/div/div[1]")).getText();
 		return re;
 	}
