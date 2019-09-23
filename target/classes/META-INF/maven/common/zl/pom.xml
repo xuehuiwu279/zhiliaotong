@@ -120,7 +120,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/java/testngXML/agent/agent_huigui.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/java/testngXML/agent/huigui.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

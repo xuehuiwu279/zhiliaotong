@@ -3,6 +3,7 @@
 <suite name="Suite" parallel="classes" >
     <test name="TestDebug">  
         <classes>
+        	<class name = "testCase.agent.rent.Login"/>
         	<class name = "testCase.agent.rent.Success"/>
             <class name="testCase.agent.rent.SourceTitleTooShort" />
         </classes>
