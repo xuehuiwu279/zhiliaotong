@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  TestDebug</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestDebug</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 17 18:28:18 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>144 seconds (144058 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCase.agent.Agent_huigui.agentRent_huigui()'><b>agentRent_huigui</b><br>Test class: testCase.agent.Agent_huigui<br>Parameters: 此用例成功发布一条租房房源, {hopeMessage=24小时内审核，通过后可置顶。, rentPayType=押一付三, rentType=合租, rentPersonLimitSpan=租赁限制, icebox2=可做饭, icebox1=冰箱, kitchenroom=1, fitment=简装, rentPersonLimit=性别不限, file=C:\\Users\\wuxh5\\Desktop\\showPicture.jpg, livingroom=1, floor=6, rentPrice=9800, rentPayTypeSpan=付款方式, supportLiftSpan=有无电梯, bathroom=1, supportLift=有, orientation=东, hopeView=true, houseType=住宅, supportHeating=自采暖, rentFamilyNum=2, sourceTitle=测试自动化发布租房房源006, houseTypeSpan=物业类型, fitmentSpan=装修程度, buildArea=98, bedroom=2, visitType=随时看房, orientationSpan=朝向, lpName=早安北京, sourceDesc=测试自动化发布租房房源测试自动化发布租房房源, totalFloor=9, supportHeatingSpan=供暖情况}</td>
+<td></td>
+<td>47</td>
+<td>testCase.agent.Agent_huigui@67c33749</td></tr>
+<tr>
+<td title='testCase.agent.Agent_huigui.agentRent_huigui()'><b>agentRent_huigui</b><br>Test class: testCase.agent.Agent_huigui<br>Parameters: 发布失败：租房房源名称太短, {hopeMessage=房源标题字数范围：8~30字, rentPayType=押一付三, rentType=合租, rentPersonLimitSpan=租赁限制, icebox2=可做饭, icebox1=冰箱, kitchenroom=1, fitment=简装, rentPersonLimit=性别不限, file=C:\\Users\\wuxh5\\Desktop\\showPicture.jpg, livingroom=1, floor=6, rentPrice=9800, rentPayTypeSpan=付款方式, supportLiftSpan=有无电梯, bathroom=1, supportLift=有, orientation=东, hopeView=false, houseType=住宅, supportHeating=自采暖, rentFamilyNum=2, sourceTitle=租房名称太短, houseTypeSpan=物业类型, fitmentSpan=装修程度, buildArea=98, bedroom=2, visitType=随时看房, orientationSpan=朝向, lpName=早安北京, sourceDesc=测试自动化发布租房房源测试自动化发布租房房源, totalFloor=9, supportHeatingSpan=供暖情况}</td>
+<td></td>
+<td>37</td>
+<td>testCase.agent.Agent_huigui@67c33749</td></tr>
+<tr>
+<td title='testCase.agent.Agent_huigui.agentSecondHand_huigui()'><b>agentSecondHand_huigui</b><br>Test class: testCase.agent.Agent_huigui<br>Parameters: 此用例成功发布一条二手房房源, {hopeMessage=24小时内审核，通过后可置顶。, totalPrice=867, hopeView=true, sourceTitle=自动化发布房源调试006, buildArea=98, bedroom=2, kitchenroom=1, useArea=87, lpName=早安北京, sourceDesc=自动化发布房源调试自动化发布房源调试自动化发布房源调试, livingroom=1, totalFloor=9, floor=6, bathroom=1}</td>
+<td></td>
+<td>30</td>
+<td>testCase.agent.Agent_huigui@67c33749</td></tr>
+<tr>
+<td title='testCase.agent.Agent_huigui.agentSecondHand_huigui()'><b>agentSecondHand_huigui</b><br>Test class: testCase.agent.Agent_huigui<br>Parameters: 发布失败:二手房房源名称太短, {hopeMessage=房源标题字数范围：8~30字, totalPrice=867, hopeView=false, sourceTitle=房源名称太短, buildArea=98, bedroom=2, kitchenroom=1, useArea=87, lpName=早安北京, sourceDesc=自动化发布房源失败自动化发布房源失败自动化发布房源失败, livingroom=1, totalFloor=9, floor=6, bathroom=1}</td>
+<td></td>
+<td>20</td>
+<td>testCase.agent.Agent_huigui@67c33749</td></tr>
+</table><p>
+</body>
+</html>

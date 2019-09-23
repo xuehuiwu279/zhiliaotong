@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESULT> 
+	<login_success>
+		<username>15694928508</username>
+		<password>qwe123</password>
+	</login_success>
+	<success>
+		<caseName>此用例成功发布一条二手房房源</caseName>
+		<lpName>早安北京</lpName>
+		<totalPrice>867</totalPrice>
+		<bedroom>2</bedroom>
+		<livingroom>1</livingroom>
+		<kitchenroom>1</kitchenroom>
+		<bathroom>1</bathroom>
+		<buildArea>98</buildArea>
+		<useArea>87</useArea>
+		<floor>6</floor>
+		<totalFloor>9</totalFloor>
+		<sourceTitle>二手房发布成功</sourceTitle>
+		<sourceDesc>自动化发布房源调试自动化发布房源调试自动化发布房源调试</sourceDesc>
+		<hopeMessage>24小时内审核，通过后可置顶。</hopeMessage>
+		<hopeView>true</hopeView>
+	</success>
+	<sourceTitleTooShort>
+		<caseName>发布失败:二手房房源名称太短</caseName>
+		<lpName>早安北京</lpName>
+		<totalPrice>867</totalPrice>
+		<bedroom>2</bedroom>
+		<livingroom>1</livingroom>
+		<kitchenroom>1</kitchenroom>
+		<bathroom>1</bathroom>
+		<buildArea>98</buildArea>
+		<useArea>87</useArea>
+		<floor>6</floor>
+		<totalFloor>9</totalFloor>
+		<sourceTitle>二手房</sourceTitle>
+		<sourceDesc>自动化发布房源失败自动化发布房源失败自动化发布房源失败</sourceDesc>
+		<hopeMessage>房源标题字数范围：8~30字</hopeMessage>
+		<hopeView>false</hopeView>
+	</sourceTitleTooShort>
+</RESULT>

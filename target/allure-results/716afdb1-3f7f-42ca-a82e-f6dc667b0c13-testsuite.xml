@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1567407837406" stop="1567407841787" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1567407837462" stop="1567407841769" status="broken">
+            <name>test4_03</name>
+            <failure>
+                <message>StringIndexOutOfBoundsException: String index out of range: -7</message>
+                <stack-trace>java.lang.StringIndexOutOfBoundsException: String index out of range: -7
+	at testCase.agent.test4.test4_03(test4.java:47)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="testCase.agent.test4"/>
+                <label name="testMethod" value="test4_03"/>
+                <label name="host" value="DESKTOPwuxh"/>
+                <label name="thread" value="15976@DESKTOPwuxh.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

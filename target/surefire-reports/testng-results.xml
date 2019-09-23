@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="144058" started-at="2019-07-17T10:28:18Z" finished-at="2019-07-17T10:30:42Z">
+    <groups>
+    </groups>
+    <test name="TestDebug" duration-ms="144058" started-at="2019-07-17T10:28:18Z" finished-at="2019-07-17T10:30:42Z">
+      <class name="testCase.agent.Agent_huigui">
+        <test-method status="PASS" signature="before()[pri:0, instance:testCase.agent.Agent_huigui@67c33749]" name="before" is-config="true" duration-ms="4853" started-at="2019-07-17T18:28:18Z" finished-at="2019-07-17T18:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="agentRent_huigui(java.lang.String, java.util.Map)[pri:0, instance:testCase.agent.Agent_huigui@67c33749]" name="agentRent_huigui" duration-ms="47436" started-at="2019-07-17T18:28:23Z" data-provider="rent" finished-at="2019-07-17T18:29:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[此用例成功发布一条租房房源]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{hopeMessage=24小时内审核，通过后可置顶。, rentPayType=押一付三, rentType=合租, rentPersonLimitSpan=租赁限制, icebox2=可做饭, icebox1=冰箱, kitchenroom=1, fitment=简装, rentPersonLimit=性别不限, file=C:\\Users\\wuxh5\\Desktop\\showPicture.jpg, livingroom=1, floor=6, rentPrice=9800, rentPayTypeSpan=付款方式, supportLiftSpan=有无电梯, bathroom=1, supportLift=有, orientation=东, hopeView=true, houseType=住宅, supportHeating=自采暖, rentFamilyNum=2, sourceTitle=测试自动化发布租房房源006, houseTypeSpan=物业类型, fitmentSpan=装修程度, buildArea=98, bedroom=2, visitType=随时看房, orientationSpan=朝向, lpName=早安北京, sourceDesc=测试自动化发布租房房源测试自动化发布租房房源, totalFloor=9, supportHeatingSpan=供暖情况}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agentRent_huigui -->
+        <test-method status="PASS" signature="agentRent_huigui(java.lang.String, java.util.Map)[pri:0, instance:testCase.agent.Agent_huigui@67c33749]" name="agentRent_huigui" duration-ms="37907" started-at="2019-07-17T18:29:10Z" data-provider="rent" finished-at="2019-07-17T18:29:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[发布失败：租房房源名称太短]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{hopeMessage=房源标题字数范围：8~30字, rentPayType=押一付三, rentType=合租, rentPersonLimitSpan=租赁限制, icebox2=可做饭, icebox1=冰箱, kitchenroom=1, fitment=简装, rentPersonLimit=性别不限, file=C:\\Users\\wuxh5\\Desktop\\showPicture.jpg, livingroom=1, floor=6, rentPrice=9800, rentPayTypeSpan=付款方式, supportLiftSpan=有无电梯, bathroom=1, supportLift=有, orientation=东, hopeView=false, houseType=住宅, supportHeating=自采暖, rentFamilyNum=2, sourceTitle=租房名称太短, houseTypeSpan=物业类型, fitmentSpan=装修程度, buildArea=98, bedroom=2, visitType=随时看房, orientationSpan=朝向, lpName=早安北京, sourceDesc=测试自动化发布租房房源测试自动化发布租房房源, totalFloor=9, supportHeatingSpan=供暖情况}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agentRent_huigui -->
+        <test-method status="PASS" signature="agentSecondHand_huigui(java.lang.String, java.util.Map)[pri:0, instance:testCase.agent.Agent_huigui@67c33749]" name="agentSecondHand_huigui" duration-ms="30353" started-at="2019-07-17T18:29:48Z" data-provider="secondHand" finished-at="2019-07-17T18:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[此用例成功发布一条二手房房源]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{hopeMessage=24小时内审核，通过后可置顶。, totalPrice=867, hopeView=true, sourceTitle=自动化发布房源调试006, buildArea=98, bedroom=2, kitchenroom=1, useArea=87, lpName=早安北京, sourceDesc=自动化发布房源调试自动化发布房源调试自动化发布房源调试, livingroom=1, totalFloor=9, floor=6, bathroom=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agentSecondHand_huigui -->
+        <test-method status="PASS" signature="agentSecondHand_huigui(java.lang.String, java.util.Map)[pri:0, instance:testCase.agent.Agent_huigui@67c33749]" name="agentSecondHand_huigui" duration-ms="20382" started-at="2019-07-17T18:30:18Z" data-provider="secondHand" finished-at="2019-07-17T18:30:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[发布失败:二手房房源名称太短]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{hopeMessage=房源标题字数范围：8~30字, totalPrice=867, hopeView=false, sourceTitle=房源名称太短, buildArea=98, bedroom=2, kitchenroom=1, useArea=87, lpName=早安北京, sourceDesc=自动化发布房源失败自动化发布房源失败自动化发布房源失败, livingroom=1, totalFloor=9, floor=6, bathroom=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agentSecondHand_huigui -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testCase.agent.Agent_huigui@67c33749]" name="after" is-config="true" duration-ms="3072" started-at="2019-07-17T18:30:39Z" finished-at="2019-07-17T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testCase.agent.Agent_huigui -->
+    </test> <!-- TestDebug -->
+  </suite> <!-- Suite -->
+</testng-results>
