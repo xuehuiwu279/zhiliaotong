@@ -25,7 +25,6 @@ public class Login {
 	@Test(dataProvider="login_success",dataProviderClass = Agent_Rent_GetData.class)
 	public void login_success(String caseName,Map<String, String> map) throws InterruptedException{
 		System.out.println("login test");
-		Thread.sleep(2000);
 		BaseOperation.login(driver,"https://agent.izhiliao.com/agent/login",map.get("username"), map.get("password"));
 		Thread.sleep(2000);//等待登录成功
 	}
