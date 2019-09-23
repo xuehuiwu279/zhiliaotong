@@ -22,7 +22,7 @@ public class BaseOperation {
 	 * @param pwd
 	 */
 	public static void login(WebDriver driver,String url,String username,String pwd){
-		driver.get("https://agent.izhiliao.com/agent/login");
+		driver.get(url);
 		driver.findElement(By.id("phone")).sendKeys(username);
 		driver.findElement(By.id("password")).sendKeys(pwd);
 		driver.findElement(By.linkText("快速登录")).click();

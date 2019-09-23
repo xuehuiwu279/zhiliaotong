@@ -3,11 +3,11 @@ package testCase.agent.rent;
 import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import common.data.Agent_Rent_GetData;
 import common.operation.BaseJudge;
-import junit.framework.Assert;
 import page.agent.AgentRent_Add;
 
 public class Success {
