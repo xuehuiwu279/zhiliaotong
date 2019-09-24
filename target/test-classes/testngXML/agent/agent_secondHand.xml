@@ -3,8 +3,11 @@
 <suite name="Suite" parallel="classes" >
     <test name="TestDebug">  
         <classes>
+        	<class name = "testCase.agent.Login"/>
+        	<class name="testCase.agent.secondHand.SourceTitleTooShort" />
         	<class name = "testCase.agent.secondHand.Success"/>
-            <class name="testCase.agent.secondHand.SourceTitleTooShort" />
+        	<class name = "testCase.agent.secondHand.XiaJia"/>
+        	<class name = "testCase.agent.secondHand.Logout"/>
         </classes>
     </test> 
 </suite> 

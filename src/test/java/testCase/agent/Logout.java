@@ -1,11 +1,10 @@
-package testCase.agent.rent;
-
-import java.sql.Driver;
+package testCase.agent;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import common.operation.BaseOperation;
+import testCase.agent.Login;
 
 public class Logout {
 	
@@ -13,8 +12,8 @@ public class Logout {
 	
 	@Test
 	public void logout(){
-		System.out.println("logout");
 		BaseOperation.logout(driver);
+		System.out.println("logout");
 	}
 
 }
