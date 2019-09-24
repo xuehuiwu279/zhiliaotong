@@ -9,7 +9,7 @@ public class XiaJia {
 	WebDriver driver = Login.driver;
 	
 	@Test()
-	public void success(){
+	public void xiajia(){
 		System.out.println("xiajia");
 		AgentRent_xiajia.rent_xiajia_free(driver);
 	}
