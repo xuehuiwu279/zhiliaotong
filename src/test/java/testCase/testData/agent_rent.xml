@@ -7,6 +7,7 @@
 	<success>
 		<caseName>此用例成功发布一条租房房源</caseName>
 		<rentType>合租</rentType>
+		<recommand>免费房源</recommand>
 		<lpName>早安北京</lpName>
 		<bedroom>2</bedroom>
 		<livingroom>1</livingroom>
@@ -43,6 +44,7 @@
 	<sourceTitleTooShort>
 		<caseName>发布失败：租房房源名称太短</caseName>
 		<rentType>合租</rentType>
+		<recommand>免费房源</recommand>
 		<lpName>早安北京</lpName>
 		<bedroom>2</bedroom>
 		<livingroom>1</livingroom>

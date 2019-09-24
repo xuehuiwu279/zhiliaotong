@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="classes" >
-    <test name="TestDebug">  
+<suite name="Suite">
+    <test name="TestDebug" preserve-order="true">  
         <classes>
         	<class name = "testCase.agent.Login"/>
-        	<class name="testCase.agent.secondHand.SourceTitleTooShort" />
+        	<class name = "testCase.agent.secondHand.SourceTitleTooShort" />
         	<class name = "testCase.agent.secondHand.Success"/>
         	<class name = "testCase.agent.secondHand.XiaJia"/>
-        	<class name = "testCase.agent.secondHand.Logout"/>
+        	<class name = "testCase.agent.Logout"/>
         </classes>
     </test> 
 </suite> 

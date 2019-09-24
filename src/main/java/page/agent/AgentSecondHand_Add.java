@@ -29,6 +29,7 @@ public class AgentSecondHand_Add {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
+		driver.findElement(By.xpath("//*[@id='houseForm']/ul/li[4]/div[2]/label[1]/span")).click();
 		//房源页面
 		driver.findElement(By.id("lpName")).sendKeys(map.get("lpName"));
 		try {

@@ -25,7 +25,8 @@ public class AgentRent_Add {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-		driver.findElement(By.xpath("//*[@value='"+map.get("rentType")+"']")).click();
+		driver.findElement(By.xpath("//*[@value='"+ map.get("rentType") +"']")).click();
+		driver.findElement(By.xpath("//*[@id='houseForm']/ul/li[4]/div[2]/label[1]/span")).click();
 		driver.findElement(By.id("lpName")).sendKeys(map.get("lpName"));
 		BaseOperation.sleep(1000);//等待1秒，等联想列表出来
 		driver.findElement(By.xpath("//*[@id='ui-id-1']")).click();

@@ -6,6 +6,7 @@
 	</login_success>
 	<success>
 		<caseName>此用例成功发布一条二手房房源</caseName>
+		<recommand>免费房源</recommand>
 		<lpName>早安北京</lpName>
 		<totalPrice>867</totalPrice>
 		<bedroom>2</bedroom>
@@ -24,6 +25,7 @@
 	</success>
 	<sourceTitleTooShort>
 		<caseName>发布失败:二手房房源名称太短</caseName>
+		<recommand>免费房源</recommand>
 		<lpName>早安北京</lpName>
 		<totalPrice>867</totalPrice>
 		<bedroom>2</bedroom>
