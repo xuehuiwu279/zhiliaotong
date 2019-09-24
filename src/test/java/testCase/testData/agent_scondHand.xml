@@ -18,6 +18,7 @@
 		<totalFloor>9</totalFloor>
 		<sourceTitle>二手房发布成功</sourceTitle>
 		<sourceDesc>自动化发布房源调试自动化发布房源调试自动化发布房源调试</sourceDesc>
+		<file>C:\\picture\\showPicture.jpg</file>
 		<hopeMessage>24小时内审核，通过后可置顶。</hopeMessage>
 		<hopeView>true</hopeView>
 	</success>
@@ -35,6 +36,7 @@
 		<totalFloor>9</totalFloor>
 		<sourceTitle>二手房</sourceTitle>
 		<sourceDesc>自动化发布房源失败自动化发布房源失败自动化发布房源失败</sourceDesc>
+		<file>C:\\picture\\showPicture.jpg</file>
 		<hopeMessage>房源标题字数范围：8~30字</hopeMessage>
 		<hopeView>false</hopeView>
 	</sourceTitleTooShort>
