@@ -1,8 +1,8 @@
 test-output
 .git
 .settings
-test/java/testCase/agent/test.java
-test/java/testCase/agent/test1.java
-test/java/testCase/agent/test2.java
-test/java/testCase/agent/test3.java
-test/java/testCase/agent/test4.java
+src/test/java/testCase/agent/test.java
+src/test/java/testCase/agent/test1.java
+src/test/java/testCase/agent/test2.java
+src/test/java/testCase/agent/test3.java
+src/test/java/testCase/agent/test4.java
