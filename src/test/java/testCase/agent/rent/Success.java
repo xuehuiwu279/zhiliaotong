@@ -20,7 +20,10 @@ public class Success {
 		String message = AgentRent_Add.rent_add(driver, map);
 		Assert.assertEquals(map.get("hopeMessage"), message);
 		Boolean viewOrNot = BaseJudge.viewOrNot_rent(map.get("sourceTitle"));
+		System.out.println("viewOrNot:" + viewOrNot.toString());
+		System.out.println("hopeView:" + map.get("hopeView"));
 		Assert.assertEquals(map.get("hopeView"), viewOrNot.toString());
+		
 		System.out.println("rent_success");
 	}
 

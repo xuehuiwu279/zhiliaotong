@@ -58,7 +58,7 @@ public class AgentRent_Add {
 		driver.findElement(By.xpath("//*[@value='"+ map.get("rentPayType") +"']")).click();
 		driver.findElement(By.name("sourceTitle")).sendKeys(map.get("sourceTitle")+random.nextInt(1000));
 		driver.findElement(By.name("sourceDesc")).sendKeys(map.get("sourceDesc"));
-		BaseElement.scrollToElement(driver, "file");
+		BaseElement.scrollToElement(driver, driver.findElement(By.name("file")));
 		driver.findElement(By.name("file")).sendKeys(map.get("file"));
 		driver.findElement(By.xpath("//*[@id='houseForm']/ul/li[21]/div[2]/ul/form/li/input")).sendKeys(map.get("file"));
 		BaseOperation.sleep(2000);//等待2秒，图片上传需要时间

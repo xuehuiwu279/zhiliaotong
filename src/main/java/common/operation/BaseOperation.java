@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import common.element.BaseElement;
+
 public class BaseOperation {
 
 	/**
@@ -32,6 +34,8 @@ public class BaseOperation {
 	 * 退出
 	 */
 	public static void logout(WebDriver driver){
+		//先回到主页面
+		driver.get("https://agent.izhiliao.com/ucenter/index");
 		driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/span[2]/a")).click();
 	}
 	

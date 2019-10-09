@@ -68,7 +68,7 @@ public class AgentSecondHand_Add {
 		driver.findElement(By.name("sourceTitle")).sendKeys(map.get("sourceTitle")+random.nextInt(1000));
 		driver.findElement(By.id("sourceDesc")).sendKeys(map.get("sourceDesc"));
 		//页面拖动到某一元素的位置
-		BaseElement.scrollToElement(driver, "file");
+		BaseElement.scrollToElement(driver, driver.findElement(By.name("file")));
 		driver.findElement(By.name("file")).sendKeys(map.get("file"));
 		driver.findElement(By.xpath("//*[@id='huxingform']/li/input")).sendKeys(map.get("file"));
 		try {
