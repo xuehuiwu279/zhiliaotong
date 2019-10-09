@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RESULT>
-	<VALUE>
-		<caseName>a</caseName>
-		<b>b</b>
-	</VALUE>
-	<VALUE>
-		<caseName>c</caseName>
-		<d>d</d>
-	</VALUE>
+	<login_success>
+		<username>15694928508</username>
+		<password>qwe123</password>
+	</login_success>
+	<success>
+		<caseName>认证信息填写成功</caseName>
+		<nameInput>知了找房1</nameInput>
+		<area>海淀</area>
+		<district>知春路</district>
+		<menDianName>测试门店</menDianName>
+		<file>C:\\picture\\showPicture.jpg</file>
+		<advantage>很多优势！</advantage>
+		<message>工作人员会在1-2个工作日内审核</message>
+	</success>
+	<nameInputNull>
+		<caseName>认证信息填写不成功</caseName>
+		<nameInput></nameInput>
+		<area>海淀</area>
+		<district>知春路</district>
+		<store-input>测试门店</store-input>
+		<file>C:\\picture\\showPicture.jpg</file>
+		<advantage>很多优势！</advantage>
+		<message>请提交所有材料</message>
+	</nameInputNull>
 </RESULT>
