@@ -1,6 +1,7 @@
 test-output
 .git
 .settings
+allure-results
 src/test/java/testCase/agent/test.java
 src/test/java/testCase/agent/test1.java
 src/test/java/testCase/agent/test2.java
