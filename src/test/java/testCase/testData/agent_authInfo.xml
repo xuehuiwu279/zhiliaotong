@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RESULT>
 	<login_success>
+		<caseName>登录成功</caseName>
 		<username>15694928508</username>
 		<password>qwe123</password>
 	</login_success>

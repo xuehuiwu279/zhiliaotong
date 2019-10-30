@@ -48,5 +48,11 @@ public class test4 {
 		}
 		System.out.println("倒序后："+string2);		
 	}
+	
+	@Test
+	public void test5(){
+		String string = "abcdef";
+		System.out.println(string.substring(1,1));
+	}
 
 }

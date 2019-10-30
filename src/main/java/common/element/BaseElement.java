@@ -12,9 +12,13 @@ public class BaseElement {
 	 * @param element 页面元素
 	 */
 	public static void scrollToElement(WebDriver driver,WebElement element){
-		String script = "return arguments[0].scrollIntoView();";
+		String script = "return arguments[0].scrollIntoView(false);";
 		((JavascriptExecutor) driver).executeScript(script, element);
 	}
 	
+	public static void scrollByJS(WebDriver driver,String xpath){
+		String js="var q=document.documentElement.scrollTop=10000";
+		((JavascriptExecutor) driver).executeScript(js);
+	}
 
 }

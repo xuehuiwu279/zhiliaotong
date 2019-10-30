@@ -12,7 +12,7 @@ public class Agent_AuthInfo_GetData {
 	 */
 	@DataProvider(name="login_success")
 	public static Object[][] login_success(){
-		Object[][] objects = GetXML.getXML(authInfoXML_addr, "login");
+		Object[][] objects = GetXML.getXML(authInfoXML_addr, "login_success");
 		return objects;
 	}
 
