@@ -98,6 +98,7 @@ public class BugCount {
 			BaseOperation.sleep(2000);
 			i+=count("bug状态", "已关闭","解决方案",str);
 		}
+		
 		return i;
 	}
 	
