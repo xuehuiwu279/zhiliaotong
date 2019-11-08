@@ -97,8 +97,7 @@ public class BugCount {
 			driver.findElement(By.id("bysearchTab")).click();//点击“搜索”
 			BaseOperation.sleep(2000);
 			i+=count("bug状态", "已关闭","解决方案",str);
-		}
-		
+		}		
 		return i;
 	}
 	
