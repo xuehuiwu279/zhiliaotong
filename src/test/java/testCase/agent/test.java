@@ -1,26 +1,14 @@
 package testCase.agent;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import org.aspectj.runtime.internal.cflowstack.ThreadStackFactoryImpl11;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openxmlformats.schemas.spreadsheetml.x2006.main.STIconSetType;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import common.data.GetXML;
-import common.operation.BaseOperation;
-import junit.framework.Assert;
-import page.agent.AgentRent_Add;
 import page.agent.AgentSecondHand_xiajia;
 
 public class test {
