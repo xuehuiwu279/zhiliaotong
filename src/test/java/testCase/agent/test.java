@@ -55,6 +55,7 @@ public class test {
 //		Random random = new Random();
 //		System.out.println("test"+random.nextInt(100));
 		AgentSecondHand_xiajia.secondHand_xiajia_free(driver);
+		
 	}
 
 	@AfterTest
