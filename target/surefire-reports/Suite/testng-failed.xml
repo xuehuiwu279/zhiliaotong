@@ -1,43 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
   <test name="TestDebug">
     <classes>
       <class name="testCase.agent.Login"/>
-      <class name="testCase.agent.rent.SourceTitleTooShort"/>
-      <class name="testCase.agent.rent.Success"/>
-      <class name="testCase.agent.rent.XiaJia"/>
-      <class name="testCase.agent.Logout"/>
     </classes>
   </test> <!-- TestDebug -->
-  <test name="TestDebug(failed)">
-    <classes>
-      <class name="testCase.agent.Logout">
-        <methods>
-          <include name="logout"/>
-        </methods>
-      </class> <!-- testCase.agent.Logout -->
-      <class name="testCase.agent.rent.XiaJia">
-        <methods>
-          <include name="rent_xiajia"/>
-        </methods>
-      </class> <!-- testCase.agent.rent.XiaJia -->
-      <class name="testCase.agent.rent.Success">
-        <methods>
-          <include name="rent_success" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testCase.agent.rent.Success -->
-      <class name="testCase.agent.Login">
-        <methods>
-          <include name="after"/>
-          <include name="before"/>
-        </methods>
-      </class> <!-- testCase.agent.Login -->
-      <class name="testCase.agent.rent.SourceTitleTooShort">
-        <methods>
-          <include name="rent_sourceTitleTooShort" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testCase.agent.rent.SourceTitleTooShort -->
-    </classes>
-  </test> <!-- TestDebug(failed) -->
 </suite> <!-- Failed suite [Suite] -->

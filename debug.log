@@ -1,0 +1,6 @@
+[1210/112340.699:ERROR:process_info.cc(359)] UncheckedAllocate
+[1210/112340.812:ERROR:process_info.cc(359)] UncheckedAllocate
+[1210/112341.646:ERROR:process_info.cc(359)] UncheckedAllocate
+[1210/112342.203:ERROR:process_info.cc(359)] UncheckedAllocate
+[1210/113559.367:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\wuxh5\AppData\Local\Temp\scoped_dir640840_1285646946\Crashpad\reports\760b3557-7c89-422f-ab87-ce2f5930170f.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[1210/113559.370:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\wuxh5\AppData\Local\Temp\scoped_dir640840_1285646946\Crashpad\reports\85c2edf7-7516-4f92-a164-544b5639e2df.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
