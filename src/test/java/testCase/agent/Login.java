@@ -6,12 +6,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import common.data.Agent_Rent_GetData;
 import common.operation.BaseOperation;
-import org.uncommons.reportng.HTMLReporter;
 
 //@Listeners(HTMLReporter.class)
 public class Login {

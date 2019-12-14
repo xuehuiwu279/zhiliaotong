@@ -145,6 +145,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;TestDebug&quot;&gt;
     &lt;classes&gt;
@@ -192,7 +193,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login_success')
 data.setCell(0, 2, 'testCase.agent.Login')
-data.setCell(0, 3, 4111);
+data.setCell(0, 3, 4249);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -230,11 +231,11 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">login_success(null, {password=qwe123, username=15712895616})</span>
-                <span class="method-start">239 ms</span>
+                <span class="method-start">55 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">after</span>
-                <span class="method-start">4444 ms</span>
+                <span class="method-start">4371 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

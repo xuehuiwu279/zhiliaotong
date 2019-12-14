@@ -83,9 +83,6 @@
 			<version>2.6.10</version>
 		</dependency>
 
-		<!--allure的testng插件 <dependency> <groupId>ru.yandex.qatools.allure</groupId> 
-			<artifactId>allure-testng-adaptor</artifactId> <version>1.5.4</version> </dependency> -->
-
 		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
@@ -112,13 +109,14 @@
 			<artifactId>velocity</artifactId>
 			<version>1.4</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng
 		<dependency>
     		<groupId>org.uncommons</groupId>
     		<artifactId>reportng</artifactId>
     		<version>1.1.4</version>
     		<scope>test</scope>
 		</dependency>
+		 -->
 		
 		<dependency>
     		<groupId>com.google.inject</groupId>
@@ -150,7 +148,18 @@
 					<!-- 
 					<argLine> -Xms1024m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=128m </argLine>
 					-->
-					<forkMode>never</forkMode>
+					<!-- 
+					<properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter</value>
+                        </property>
+                    </properties>
+					<forkMode>never</forkMode> -->
 					<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
 						<!-- 

@@ -3,6 +3,7 @@ package common.element;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 public class BaseElement {
 	
@@ -19,6 +20,11 @@ public class BaseElement {
 	public static void scrollByJS(WebDriver driver,String xpath){
 		String js="var q=document.documentElement.scrollTop=10000";
 		((JavascriptExecutor) driver).executeScript(js);
+	}
+	
+	public static void clickBlankArea(WebDriver driver){
+		Actions actions = new Actions(driver);
+		actions.moveByOffset(0, 0).click().build().perform();
 	}
 
 }
