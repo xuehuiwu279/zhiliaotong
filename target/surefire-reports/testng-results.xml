@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4331" started-at="2019-12-11T09:34:46Z" finished-at="2019-12-11T09:34:51Z">
+  <suite name="Suite" duration-ms="90185" started-at="2019-12-14T09:47:01Z" finished-at="2019-12-14T09:48:31Z">
     <groups>
     </groups>
-    <test name="TestDebug" duration-ms="4331" started-at="2019-12-11T09:34:46Z" finished-at="2019-12-11T09:34:51Z">
+    <test name="TestDebug" duration-ms="90185" started-at="2019-12-14T09:47:01Z" finished-at="2019-12-14T09:48:31Z">
+      <class name="testCase.agent.authInfo.NameInputNull">
+        <test-method status="PASS" signature="nameInputNull(java.lang.String, java.util.Map)[pri:0, instance:testCase.agent.authInfo.NameInputNull@42e25b0b]" name="nameInputNull" duration-ms="41210" started-at="2019-12-14T17:47:12Z" data-provider="nameInputNull" finished-at="2019-12-14T17:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[认证信息填写不成功]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{area=海淀, file=C:\\picture\\showPicture.jpg, advantage=很多优势！, district=知春路, caseName=认证信息填写不成功, message=请提交所有材料, nameInput=, store-input=测试门店}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameInputNull -->
+      </class> <!-- testCase.agent.authInfo.NameInputNull -->
+      <class name="testCase.agent.Logout">
+        <test-method status="PASS" signature="logout()[pri:0, instance:testCase.agent.Logout@44be0077]" name="logout" duration-ms="790" started-at="2019-12-14T17:48:31Z" finished-at="2019-12-14T17:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testCase.agent.Logout -->
+      <class name="testCase.agent.authInfo.Success">
+        <test-method status="PASS" signature="success(java.lang.String, java.util.Map)[pri:0, instance:testCase.agent.authInfo.Success@39b43d60]" name="success" duration-ms="37370" started-at="2019-12-14T17:47:53Z" data-provider="success" finished-at="2019-12-14T17:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[认证信息填写成功]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{area=海淀, file=C:\\picture\\showPicture.jpg, advantage=很多优势！, district=知春路, caseName=认证信息填写成功, menDianName=测试门店, message=工作人员会在1-2个工作日内审核, nameInput=知了找房1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- success -->
+      </class> <!-- testCase.agent.authInfo.Success -->
       <class name="testCase.agent.Login">
-        <test-method status="PASS" signature="before()[pri:0, instance:testCase.agent.Login@66b0e207]" name="before" is-config="true" duration-ms="24" started-at="2019-12-11T17:34:46Z" finished-at="2019-12-11T17:34:46Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testCase.agent.Login@7bf3a5d8]" name="before" is-config="true" duration-ms="24" started-at="2019-12-14T17:47:01Z" finished-at="2019-12-14T17:47:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="login_success(java.lang.String, java.util.Map)[pri:0, instance:testCase.agent.Login@66b0e207]" name="login_success" duration-ms="4249" started-at="2019-12-11T17:34:46Z" data-provider="login_success" finished-at="2019-12-11T17:34:50Z">
+        <test-method status="PASS" signature="login_success(java.lang.String, java.util.Map)[pri:0, instance:testCase.agent.Login@7bf3a5d8]" name="login_success" duration-ms="10685" started-at="2019-12-14T17:47:01Z" data-provider="login_success" finished-at="2019-12-14T17:47:12Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -25,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_success -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testCase.agent.Login@66b0e207]" name="after" is-config="true" duration-ms="4330" started-at="2019-12-11T17:34:51Z" finished-at="2019-12-11T17:34:55Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testCase.agent.Login@7bf3a5d8]" name="after" is-config="true" duration-ms="41" started-at="2019-12-14T17:48:32Z" finished-at="2019-12-14T17:48:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
